@@ -1,0 +1,35 @@
+.galeri__list {
+  display: flex;
+  position: relative;
+}
+.galeri__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+.galeri__img:not(:last-child) {
+  margin-right: 30px;
+}
+.box {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--first-color);
+
+  width: 370px;
+  height: 70px;
+
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px 82px;
+  position: absolute;
+  bottom: 0;
+}
