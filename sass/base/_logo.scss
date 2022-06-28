@@ -1,11 +1,6 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
 .logo,
 .logo__footer {
   padding-bottom: 25px;
-  /**/
 
   font-family: ‘Raleway’, sans-serif;
   font-weight: 700;
@@ -19,19 +14,11 @@ body {
   padding-top: 25px;
   padding-right: 93px;
 }
-.logo-accent--header {
-  color: #000;
-}
-.logo-accent--footer {
-  color: var(--first-color);
-}
-
-.section {
-  padding: 94px 15px;
-}
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
+.logo-accent {
+  &--footer {
+    color: var(--first-color);
+  }
+  &--header {
+    color: #000;
+  }
 }
