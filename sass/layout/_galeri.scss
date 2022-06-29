@@ -3,7 +3,7 @@
     display: flex;
     position: relative;
   }
-  &i__title {
+  &__title {
     @include font(700, 36px, 1.17, 0.03em);
 
     text-align: center;

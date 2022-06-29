@@ -5,13 +5,14 @@
   & .container {
     display: flex;
   }
-  .content__& {
-    margin-right: 70px;
-  }
+
   &__link {
     color: var(--first-color);
 
     margin-bottom: 9px;
+  }
+  &__content {
+    margin-right: 70px;
   }
 }
 
@@ -98,6 +99,8 @@
     padding-left: 16px;
     padding-right: 16px;
     margin-right: 12px;
+
+    color: var(--first-color);
     &::placeholder {
       @include font(400, 16px, 1.25, 0.03em);
 
@@ -105,23 +108,22 @@
     }
   }
 }
-.submit {
-  &__btn {
-    background: var(--accent-btn-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 
-    @include font(700, 16px, 1.87, 0.03em);
+.footer-subscribe__submit-btn {
+  background: var(--accent-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 
-    color: var(--first-color);
-    display: flex;
-    align-items: center;
-    padding-left: 25px;
-    padding-right: 25px;
-    justify-content: space-around;
-  }
-  &__icon {
-    fill: var(--first-color);
-    margin-left: 10px;
-  }
+  @include font(700, 16px, 1.87, 0.03em);
+
+  color: var(--first-color);
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content: space-around;
+}
+.footer-subscribe__submit-icon {
+  fill: var(--first-color);
+  margin-left: 10px;
 }

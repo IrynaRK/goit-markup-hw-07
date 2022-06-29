@@ -1,8 +1,8 @@
 .logo,
-.logo__footer {
+.footer__logo {
   padding-bottom: 25px;
-
   font-family: ‘Raleway’, sans-serif;
+
   @include font(700, 26px, 1.19, 0.03em);
 
   color: var(--accent-color);
